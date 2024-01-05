@@ -1,0 +1,84 @@
+.pagina-principal {
+    background-color: black;
+    color: white;
+    padding: 20px;
+  }
+  .bimestre-titulo {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+   
+  }
+  .disciplina-container {
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 10px;
+  
+  
+
+
+}
+
+  
+ 
+.bimestre-component {
+    width: 113px;
+height: 24px;
+top: 66.5px;
+left: 265px;
+
+    
+  }
+  .disciplina-component {
+    width: 158px;
+    height: 146px;
+    margin: 5px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 2em;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+
+  }
+  
+  .button {
+    width: 183px;
+    height: 37px;
+    top: 807px;
+    left: 934px;
+    padding:16px, 32px, 16px, 32px;
+    border-radius: 12px;
+    gap: 10px;
+    background-color: #E9FF1A;
+  }
+    
+
+  .disciplina-component.artes {
+    background-color: #05A2C2;
+    border-radius: 10px;
+    
+  }
+  
+  .disciplina-component.biologia {
+    background-color: #CC4090;
+    border-radius: 10px;
+  }
+  
+  .disciplina-component.sociologia {
+    background-color: #9B19C2;
+    border-radius: 10px;
+  }
+  
+  .disciplina-component.geografia {
+    background-color: #C26719;
+    border-radius: 10px;
+  }
+  
